@@ -24,7 +24,7 @@ VALUES
     ("coffee", "кофе", true, ""),
     ("flat", "квартира",  true,"аренда"),
     ("entertainment", "развлечения", true,"кино, хоккей"),
-    ("dinner", "обед", true, "столовая, ланч, бизнес-ланч, бизнес ланч"),
+    ("dinner", "обед", true, "столовая, ланч, столовка, обед"),
     ("cafe", "кафе", true, "ресторан, рест, мак, макдональдс, макдак, kfc"),
     ("transport", "общ. транспорт", false, "метро, автобус, metro"),
     ("taxi", "такси", false, "яндекс такси, yandex taxi"),
@@ -32,6 +32,6 @@ VALUES
     ("books", "книги", false, "литература, литра, лит-ра"),
     ("internet", "интернет", false, "инет, inet"),
     ("subscriptions", "подписки", false, "подписка"),
-    ("other", "прочее", true, "");
+    ("other", "прочее", false, "");
 
-INSERT INTO budget(codename, daily_limit) VALUES ('base', 70);
+INSERT INTO budget(codename, daily_limit) VALUES ('base', 50);
